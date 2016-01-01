@@ -1,3 +1,5 @@
+package me.anyconfig.appconfig;
+
 import com.avaje.ebean.annotation.CreatedTimestamp;
 import com.avaje.ebean.annotation.UpdatedTimestamp;
 
