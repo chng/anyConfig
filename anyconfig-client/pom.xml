@@ -8,8 +8,13 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>anyconfig-client</artifactId>
     <packaging>jar</packaging>
-    <name>anyconfig-client Maven Webapp</name>
+    <fieldName>anyconfig-client Maven Webapp</fieldName>
     <url>http://maven.apache.org</url>
+
+    <build>
+        <finalName>anyconfig-client</finalName>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -18,9 +23,13 @@
         </dependency>
 
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>anyconfig</groupId>
+            <artifactId>anyconfig-public</artifactId>
         </dependency>
 
         <dependency>
@@ -33,8 +42,25 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup</groupId>
+            <artifactId>javapoet</artifactId>
+        </dependency>
+
     </dependencies>
-    <build>
-        <finalName>anyconfig-client</finalName>
-    </build>
 </project>

@@ -12,14 +12,14 @@
         <module>anyconfig-web</module>
         <module>anyconfig-server</module>
         <module>anyconfig-client</module>
-        <module>anyconfig-core</module>
+        <module>anyconfig-public</module>
     </modules>
 
     <properties>
         <spring.version>4.2.3.RELEASE</spring.version>
         <anyconfig-client.version>1.0-SNAPSHOT</anyconfig-client.version>
         <anyconfig-server.version>1.0-SNAPSHOT</anyconfig-server.version>
-        <anyconfig-core.version>1.0-SNAPSHOT</anyconfig-core.version>
+        <anyconfig-public.version>1.0-SNAPSHOT</anyconfig-public.version>
     </properties>
 
     <dependencyManagement>
@@ -27,8 +27,8 @@
 
             <dependency>
                 <groupId>anyconfig</groupId>
-                <artifactId>anyconfig-core</artifactId>
-                <version>${anyconfig-core.version}</version>
+                <artifactId>anyconfig-public</artifactId>
+                <version>${anyconfig-public.version}</version>
             </dependency>
             <dependency>
                 <groupId>anyconfig</groupId>
@@ -38,7 +38,7 @@
             <dependency>
                 <groupId>anyconfig</groupId>
                 <artifactId>anyconfig-client</artifactId>
-                <version>anyconfig-client.version</version>
+                <version>${anyconfig-client.version}</version>
             </dependency>
 
             <!-- test -->
@@ -144,6 +144,32 @@
                 <artifactId>fastjson</artifactId>
                 <version>1.2.7</version>
             </dependency>
+
+            <!-- collection -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>3.2.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.collections</groupId>
+                <artifactId>google-collections</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup</groupId>
+                <artifactId>javapoet</artifactId>
+                <version>1.4.0</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

@@ -11,6 +11,8 @@ import java.util.List;
 
 /**
  * Created by OurEDA on 2015/12/31.
+ *
+ * 一个RegAPP实例对应一个应用，管理多个RegConfig
  */
 @Entity
 public class RegAPP {
