@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/anyconfig.iml" filepath="$PROJECT_DIR$/anyconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/anyconfig-client/anyconfig-client.iml" filepath="$PROJECT_DIR$/anyconfig-client/anyconfig-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/anyconfig-core/anyconfig-core.iml" filepath="$PROJECT_DIR$/anyconfig-core/anyconfig-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/anyconfig-public/anyconfig-public.iml" filepath="$PROJECT_DIR$/anyconfig-public/anyconfig-public.iml" />
       <module fileurl="file://$PROJECT_DIR$/anyconfig-server/anyconfig-server.iml" filepath="$PROJECT_DIR$/anyconfig-server/anyconfig-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/anyconfig-web/anyconfig-web.iml" filepath="$PROJECT_DIR$/anyconfig-web/anyconfig-web.iml" />
     </modules>

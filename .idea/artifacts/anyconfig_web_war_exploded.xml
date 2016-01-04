@@ -10,9 +10,7 @@
           <element id="archive" name="anyconfig-web-1.0-SNAPSHOT.jar">
             <element id="module-output" name="anyconfig-web" />
           </element>
-          <element id="archive" name="anyconfig-core-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="anyconfig-core" />
-          </element>
+          <element id="library" level="project" name="Maven: anyconfig:anyconfig-core:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.avaje.ebeanorm:avaje-ebeanorm:6.13.4" />
           <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
           <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />

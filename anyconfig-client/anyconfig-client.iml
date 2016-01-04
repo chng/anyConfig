@@ -36,7 +36,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../auto-interface.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../annotation-tools/out/artifacts/auto_interface_jar/auto-interface.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

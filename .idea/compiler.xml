@@ -14,16 +14,16 @@
       <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
+      <profile default="true" name="Default" enabled="true">
+        <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="anyconfig-client" />
         <module name="anyconfig-core" />
+        <module name="anyconfig-public" />
         <module name="anyconfig-server" />
         <module name="anyconfig-web" />
       </profile>
@@ -32,6 +32,7 @@
       <module name="anyconfig" target="1.5" />
       <module name="anyconfig-client" target="1.5" />
       <module name="anyconfig-core" target="1.5" />
+      <module name="anyconfig-public" target="1.5" />
       <module name="anyconfig-server" target="1.5" />
       <module name="anyconfig-web" target="1.5" />
     </bytecodeTargetLevel>

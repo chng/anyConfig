@@ -1,7 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: anyconfig:anyconfig-client:anyconfig-client.version">
-    <CLASSES />
-    <JAVADOC />
-    <SOURCES />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/anyconfig/anyconfig-client/anyconfig-client.version/anyconfig-client-anyconfig-client.version.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/anyconfig/anyconfig-client/anyconfig-client.version/anyconfig-client-anyconfig-client.version-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/anyconfig/anyconfig-client/anyconfig-client.version/anyconfig-client-anyconfig-client.version-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
